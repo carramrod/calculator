@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.phonegap.calculator"
+        version   = "1.0.0">
+
+    <name>Simple Calculator</name>
+
+    <description>
+        Simple Calculator that does basic calculations such as: addition, multiplication, division, subtraction.
+    </description>
+
+    <author href="http://phonegap.com" email="support@phonegap.com">
+        Quenten Bailey
+    </author>
+    
+    <!-- specifying android only -->
+    
+    <gap:platform name="android" />
+    
+    <preference name="phonegap-version"           value="3.0.0" />
+    <preference name="orientation"                value="portrait" />
+    <preference name="fullscreen"                 value="true" />
+    <preference name="android-minSdkVersion"      value="7" /> 
+    <preference name="android-installLocation"    value="auto" />  
+    
+    <icon src="calculate.png" />
+    
+    <access origin="http://127.0.0.1*"/>
+  
+</widget>
