@@ -1,0 +1,116 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	font: bold 14px Arial, sans-serif;
+}
+
+html {
+	height: 100%;
+	background: white;
+	background: radial-gradient(circle, #fff 20%, #ccc);
+	background-size: cover;
+}
+
+#calculator {
+	width: 190px;
+	height: auto;
+	
+	margin: 50px auto;
+	padding: 20px 20px 9px;
+	
+	background: #398547;
+	background: linear-gradient(#15962D, #398547);
+	border-radius: 3px;
+	box-shadow: 0px 2px #33CC33, 0px 5px 7.5px rgba(0, 0, 0, 0.2);
+}
+
+.top span.clear {
+	float: left;
+}
+
+.top .input_box {
+	height: 20px;
+	width: 110px;
+	
+	float: right;
+	
+	padding: 0 10px;
+	
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	box-shadow: inset 0px 2px rgba(0, 0, 0, 0.2);
+	
+	font-size: 15px;
+	line-height: 20px;
+	color: white;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+.keys, .top {overflow: hidden;}
+
+.keys span, .top span.clear {
+	float: left;
+	margin-left: 0;
+	position: relative;
+	top: 0;
+	
+	
+	width: 33px;
+	height: 18px;
+	
+	background: #7DE38C;
+	border-radius: 3px;
+	box-shadow: 0px 2px #33CC33;
+	
+	margin: 0 6px 11px 0;
+	
+	color: #777;
+	line-height: 20px;
+	text-align: center;
+	
+	user-select: none;
+	
+	transition: all 0.2s ease;
+}
+
+.keys span.operator {
+	background: #fff;
+	float: right;
+	margin-right: 0;
+	color: green;
+}
+
+.keys span.eval {
+	background: #7DE38C;
+	box-shadow: 0px 2px #33CC33;
+	color: #777;
+}
+
+.top span.clear {
+	background: #E0920B;
+	box-shadow: 0px 2px #BF7F0F;
+	color: white;
+}
+
+.keys span:active {
+	background: #409C4E;
+	box-shadow: 0px 0px #6b54d3;
+	top: 4px;
+}
+
+.keys span.eval:active {
+	background: #409C4E;
+	box-shadow: 0px 0px #717a33;
+	top: 4px;
+}
+
+.top span.clear:active {
+	background: #C77F04;
+	box-shadow: 0px 0px #BF7F0F;
+	top: 4px;
+}
