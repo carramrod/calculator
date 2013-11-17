@@ -1,3 +1,9 @@
+html {
+	height: 100%;
+	background: white;
+	background: radial-gradient(circle, #fff 20%, #ccc);
+	background-size: cover;
+}
 
 #calculator {
 	width: 325px;
