@@ -68,7 +68,7 @@ html {
 	transition: all 0.2s ease;
 }
 
-.keys span.operator {
+.keys span.operation {
 	background: #fff;
 	margin-right: 0;
 	color: green;
