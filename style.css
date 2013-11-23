@@ -1,3 +1,12 @@
+﻿
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+	font: bold 14px Arial, sans-serif;
+}
+
 html {
 	height: 100%;
 	background: white;
@@ -34,7 +43,7 @@ html {
 	border-radius: 3px;
 	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
 	
-	font-size: 17px;
+	font-size: 15px;
 	line-height: 40px;
 	color: white;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
@@ -68,7 +77,7 @@ html {
 	transition: all 0.2s ease;
 }
 
-.keys span.operation {
+.keys span.operator {
 	background: #fff;
 	margin-right: 0;
 	color: green;
@@ -77,7 +86,7 @@ html {
 .keys span.eval {
 	background: #7DE38C;
 	box-shadow: 0px 4px #33CC33;
-	color: #888e5f;
+	color: #777;
 }
 
 .top span.clear {
