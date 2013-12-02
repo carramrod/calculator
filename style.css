@@ -24,7 +24,7 @@ html {
 	background: #398547;
 	background: linear-gradient(#15962D, #398547);
 	border-radius: 3px;
-	box-shadow: 0px 4px #33CC33, 0px 10px 15px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 4px #33CC33, 0px 10px 15px rgba(0, 0, 0, 0);
 }
 
 .top span.clear {
@@ -39,14 +39,14 @@ html {
 	
 	padding: 0 10px;
 	
-	background: rgba(0, 0, 0, 0.2);
+	background: rgba(0, 0, 0, 0.1);
 	border-radius: 3px;
-	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.1);
 	
 	font-size: 15px;
 	line-height: 40px;
 	color: white;
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 	text-align: right;
 	letter-spacing: 1px;
 }
